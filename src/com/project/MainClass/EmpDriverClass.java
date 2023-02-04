@@ -40,6 +40,8 @@ public class EmpDriverClass {
 				);
 		
 		System.out.println(empMap.toString());
+System.out.println(empMap.toString());
+System.out.println(empMap.toString());
 		
 
 	}
