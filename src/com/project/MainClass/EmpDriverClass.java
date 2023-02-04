@@ -29,7 +29,17 @@ public class EmpDriverClass {
 		emps.add(emp6);
 		obj.setEmps(emps);
 		
+		Map<Integer,Employee> empMap = new HashMap<Integer,Employee>();
+		obj.getEmps().stream().filter(emp -> emp.getEmpId() > 2)
+		.forEach(emp -> {if(emp.getDeptId() == 11||emp.getDeptId() == 12)
+			{
+				empMap.put(emp.getEmpId(), emp);
+			}
+			}
 		
+				);
+		
+		System.out.println(empMap.toString());
 		
 
 	}
