@@ -18,6 +18,8 @@ public class EmpDriverClass {
 		Employee emp5 = new Employee(5,"Emp5",12,"SE");
 		Employee emp6 = new Employee(6,"Emp6",13,"SE");
 		Employee emp7 = new Employee(7,"Emp7",13,"SE");
+		Employee emp8 = new Employee(8,"Emp8",11,"SE");
+		Employee emp9 = new Employee(9,"Emp9",12,"SE");
 		EmployeeList obj = new EmployeeList();
 		//Employees in a list
 		
@@ -29,6 +31,8 @@ public class EmpDriverClass {
 		emps.add(emp5);
 		emps.add(emp6);
 		emps.add(emp7);
+		emps.add(emp8);
+		emps.add(emp9);
 		obj.setEmps(emps);
 		
 		Map<Integer,Employee> empMap = new HashMap<Integer,Employee>();
